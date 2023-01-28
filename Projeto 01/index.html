@@ -1,0 +1,101 @@
+<!DOCTYPE html> <!-- Define que esse documento é do tipo HTML 5 - versão mais nova do HTML, não é considerada um tag mas sim uma instrução -->
+
+<!--
+  ctrl + x = exclui toda a linha
+-->
+
+<html lang="pt-br">
+<!-- tag " html" é considerada uma tag "root" ou "raíz" -->
+<!-- tag "lang" define a linguagem -->
+  <head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <!--
+      META = caracteristicas do próprio documento
+      char = caracter / set = conjunto;
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+      VIERPORT = toda área que vcê consegue ver dentro do nagevador;
+      Content = conteúdo;
+      width = largura 
+      initial-scale=1.0 -> sem zoom;
+    -->
+    <title>Móveis Customizados</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--
+      Tag "link" faz referência a alguns CSS externo.
+      REL = relation;
+      preconnect = pré conexão;
+    -->
+
+    <link rel="stylesheet" href="style.css">
+    <!--
+      Como não possui https e etc no href, o código vai procurar no meu programa;
+    -->
+  </head>
+
+  <body>
+
+    <div id="hero">
+    <!--
+      Div = como uma caixa;
+    -->
+      <img src="images/img1.jpeg" alt="Desenho de uma pessoa vestindo uma camisa laranjada e calças azuis no centro de uma sala com móveis claros" />
+
+      <h1> Ambientes <span>únicos</span> para você! </h1>
+      <!--
+        h = heading, vai de 1 a 6;
+      -->
+
+      <p> 
+        Nós criamos ambientes <strong>exclusivos</strong> e <strong>únicos</strong>, com muito bom gosto e profissionalismo, investimos tempo e <span>dedicação no seu projeto</span>.
+        <br/>
+        <br/>
+        Tenha <span>ambientes limpos</span> e bem decorados, transmitindo <strong>elegância</strong> e <strong>finesse</strong> para todo aquele que estiver ali.
+      </p>
+
+      <!--
+        p = parágrafo;
+      -->
+    
+    </div>
+
+    <div id="footer">
+
+      <div id="line"></div>
+      
+      <a 
+        target="_blank"
+        href="https://instagram.com">Instagram
+      </a>
+      <!-- &nbsp =  Conta uma quebra de linha -->
+      <a 
+        href="mailto:contato@moveisparavoce.com">Fale conosco</a>
+      <!-- a = elemento ancora > criar hiperlink-->
+    </div>
+
+    <img 
+    id="balls"
+    src="images/balls.svg" 
+    alt="Dezesseis pequenas bolinhas laranjadas dispostas uniformemente no canto inferior direito da tela"
+    />
+    <!--
+      Tag "img" é não tem um conteúdo interno, ou seja, ela abre e fecha em si mesma;
+      src = source = fonte = locazilação;
+      ALT = alternativa; Nesse caso em caso de alguma deficiência visual o navegador pode ler. Também é importante para os motores de busca.
+    -->
+
+  </body>
+</html>
+
+<!-- 
+  As tags "head" e "body" são tags filhas/childreen da "html" (pai/father), pois estão dentro dela - São chamados também de "elementos HTML" (elements) 
+-->
+
+<!-- 
+  HEAD contém instruções para a própria página, nada aparece na tela;
+  BODY tem o corpo, informação visual pro cliente, o que aparece na tela; 
+-->
